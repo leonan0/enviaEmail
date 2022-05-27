@@ -1,3 +1,4 @@
+from time import sleep
 import sys
 import json
 import os
@@ -82,10 +83,11 @@ for r in registros:
 wb_obj.save(path)
 wb_obj.close()
 
-if sys.argv[0] == '1':
+if sys.argv[1] == '1':
     print('Envio de email desligado.')
     print('FIM')
 else:
     for r in registros:
         send_mail(email_de_envio, **r.to_dict())
 print(f'Geradas {len(registros)} linhas')
+sleep(15)
