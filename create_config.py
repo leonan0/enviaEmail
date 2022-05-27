@@ -15,10 +15,10 @@ email_de_envio = input("Qual o email de envio?")
 
 paths_finais = input("Quais os paths finais dos anexos?")
 
-config = {caminho_raiz_anexos: caminho_raiz_anexos,
-          'paths_finais':paths_finais
-          'email_de_envio':email_de_envio
-          'planilha_base':planilha_base
+config = {'caminho_raiz_anexos': caminho_raiz_anexos,
+          'paths_finais':paths_finais,
+          'email_de_envio':email_de_envio,
+          'planilha_base':planilha_base,
           'assinatura':assinatura
 }
 
