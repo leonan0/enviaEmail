@@ -1,3 +1,4 @@
+import sys
 import json
 import os
 import openpyxl as op
@@ -81,7 +82,10 @@ for r in registros:
 wb_obj.save(path)
 wb_obj.close()
 
-for r in registros:
-    send_mail(email_de_envio, **r.to_dict())
-
+if sys.argv[0] == '1':
+    print('Envio de email desligado.')
+    print('FIM')
+else:
+    for r in registros:
+        send_mail(email_de_envio, **r.to_dict())
 print(f'Geradas {len(registros)} linhas')
