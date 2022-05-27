@@ -1,0 +1,7 @@
+{
+  "planilha_base": "C:\\Users\\usa30\\Downloads\\EnviaEmail.xlsx",
+  "caminho_raiz_anexos": "C:\\Users\\usa30\\Documents\\Testes\\Financeiro\\Honorários ACN",
+  "email_de_envio": "leonanf371@gmail.com",
+  "paths_finais": "Boletos;NFS-e;Faturas",
+  "assinatura": "<br/><p><strong>Att.</strong></p><p><strong>Gabriela Andreoli Pedro</strong><strong> <br/strong>Departamento Financeiro <br/><img src=\"https://raw.githubusercontent.com/leonan0/files/main/logoacn.jpg\" alt=\"\" /> <br/>Avenida Rio de Janeiro, 1765 &ndash; Londrina/PR <br/>Telefone: (43) 3324-4373 <br/>E-mail:&nbsp;<a href=\"mailto:office01@acncon.com.br\">financeiro@acncon.com.br</a></p>"
+}
