@@ -1,4 +1,4 @@
-from see_accounts import get_accounts
+from see_accounts import see_accounts
 import json
 
 assinatura = "<br/><p><strong>Att.</strong></p><p><strong>Gabriela Andreoli Pedro</strong><strong> <br/strong>Departamento Financeiro <br/><img src=\"https://raw.githubusercontent.com/leonan0/files/main/logoacn.jpg\" alt=\"\" /> <br/>Avenida Rio de Janeiro, 1765 &ndash; Londrina/PR <br/>Telefone: (43) 3324-4373 <br/>E-mail:&nbsp;<a href=\"mailto:office01@acncon.com.br\">financeiro@acncon.com.br</a></p>"
@@ -8,7 +8,7 @@ caminho_raiz_anexos = input("Qual o caminho da raiz dos anexos?")
 
 planilha_base = input("Qual o caminho da planilha base?")
 if input("quer ver as contas disponiveis?") == "s":
-    print(get_accounts())
+    print(see_accounts())
 
 
 email_de_envio = input("Qual o email de envio?")
